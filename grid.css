@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  background: linear-gradient(
+    to right,
+    rgb(125, 83, 83, 0.8),
+    rgb(71, 51, 51, 0.9)
+  );
+  border-radius: 1rem;
+}
+.gridContainer img:hover {
+  box-shadow: 2px 4px white;
+  transform: scale(90%);
+}
+.gridContainer img {
+  transition: 0.5s; /* Apply transition for both hover and unhover states */
+}
